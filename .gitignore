@@ -1,0 +1,29 @@
+# ----------------------------------------------------------------------
+# Advent of Code Specifics
+# ----------------------------------------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Linux & macOS specific temporary files
+*~
+*.swp
+.DS_Store
+
+# Virtual environment (venv)
+venv/
+env/
+
+# Package installation and distribution
+*.egg-info/
+.coverage
+.pytest_cache
+
+# Jupyter / IPython Notebooks
+.ipynb_checkpoints
+
+# IDE / Editor Files
+.vscode/
+.idea/
