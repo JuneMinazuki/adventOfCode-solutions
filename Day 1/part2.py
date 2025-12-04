@@ -5,7 +5,7 @@ try:
     currentDial = 50
     count = 0
 
-    with open("Day 1/input.txt", "r") as file:
+    with open("input.txt", "r") as file:
         for line in file:
             line = line.strip()
             
@@ -21,7 +21,6 @@ try:
                 
                 # 1 (for the first hit) + (remaining speed // 100) for subsequent loops
                 if speed >= distToZero:
-
                     count += 1 + (speed - distToZero) // 100
                 
                 # Update dial position

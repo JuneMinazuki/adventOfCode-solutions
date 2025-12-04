@@ -5,7 +5,7 @@ try:
     currentDial = 50
     count = 0
 
-    with open("Day 1/input.txt", "r") as file:
+    with open("input.txt", "r") as file:
         for line in file:
             line = line.strip()
             

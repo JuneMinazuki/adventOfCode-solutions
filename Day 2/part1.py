@@ -6,7 +6,7 @@ try:
     total = 0
     ids = list()
 
-    with open("Day 2/input.txt", "r") as file:
+    with open("input.txt", "r") as file:
         ids = file.readline().strip().split(",")
 
         for id in ids:

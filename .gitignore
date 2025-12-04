@@ -27,3 +27,7 @@ env/
 # IDE / Editor Files
 .vscode/
 .idea/
+
+# Input
+input.txt
+test.txt
