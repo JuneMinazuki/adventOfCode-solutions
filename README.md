@@ -1,6 +1,6 @@
 # Advent of Code Solutions
 
-![Language](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge) ![Stars](https://img.shields.io/badge/Stars-4-CCBD45?style=for-the-badge) ![Days Completed](https://img.shields.io/badge/Days%20Completed-2-red?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge) ![Stars](https://img.shields.io/badge/Stars-6-CCBD45?style=for-the-badge) ![Days Completed](https://img.shields.io/badge/Days%20Completed-3-red?style=for-the-badge)
 
 This repository contains my solutions and attempts for the [Advent of Code](https://adventofcode.com) challenge.
 
@@ -23,6 +23,6 @@ cd adventOfCode-solutions
 
 ### Obtain your puzzle input:
 
-For each day, you need your unique input file from the Advent of Code website.
+For each day, you need your unique input file from the [Advent of Code](https://adventofcode.com) website.
 
 Place the input file inside the corresponding day_XX/ folder, named input.txt.
