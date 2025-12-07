@@ -1,6 +1,6 @@
 # Advent of Code Solutions
 
-![Language](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge) ![Stars](https://img.shields.io/badge/Stars-12-CCBD45?style=for-the-badge) ![Days Completed](https://img.shields.io/badge/Days%20Completed-6-red?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge) ![Stars](https://img.shields.io/badge/Stars-14-CCBD45?style=for-the-badge) ![Days Completed](https://img.shields.io/badge/Days%20Completed-7-red?style=for-the-badge)
 
 This repository contains my solutions and attempts for the [Advent of Code](https://adventofcode.com) challenge.
 
