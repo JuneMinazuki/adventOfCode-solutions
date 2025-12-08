@@ -1,10 +1,10 @@
 # Day 6: Part 1
 
-try:
-    # Variables
-    number = []
-    total = 0
+# Variables
+number = []
+total = 0
 
+try:
     with open("input.txt", "r") as file:
         content = file.read()
         lines = content.strip().split("\n") 

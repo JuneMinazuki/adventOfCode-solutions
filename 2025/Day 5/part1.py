@@ -1,12 +1,12 @@
 # Day 5: Part 1
 import bisect
 
-try:
-    # Variables
-    ranges = []
-    mergedRanges = []
-    count = 0
+# Variables
+ranges = []
+mergedRanges = []
+count = 0
 
+try:
     with open("test.txt", "r") as file:
         content = file.read()
         sections = content.strip().split("\n\n") 

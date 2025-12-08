@@ -1,9 +1,9 @@
 # Day 3: Part 2
 
-try:
-    # Variables
-    total = 0
+# Variables
+total = 0
 
+try:
     with open("input.txt", "r") as file:
         for line in file:
             line = line.strip()

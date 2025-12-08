@@ -1,12 +1,12 @@
 # Day 4: Part 2
 
-try:
-    # Variables
-    coordinate = set()
-    neighbors = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
-    acceptedTile = 0
-    initialAcceptedTile = -1
+# Variables
+coordinate = set()
+neighbors = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
+acceptedTile = 0
+initialAcceptedTile = -1
 
+try:
     with open("input.txt", "r") as file:
         # Get coordinate of each @
         for x, line in enumerate(file):

@@ -1,9 +1,9 @@
 # Day 3: Part 1
 
-try:
-    # Variables
-    total = 0
+# Variables
+total = 0
 
+try:
     with open("input.txt", "r") as file:
         for line in file:
             line = line.strip()
@@ -12,9 +12,7 @@ try:
 
             # Find the largest number in firstDigitOption
             firstDigit = max(firstDigitOption)
-            for i in range(len(firstDigitOption)):
-                if (firstDigit == firstDigitOption[i]):
-                    break
+            i = firstDigitOption.index(firstDigit)
 
             # Get secondDigitOption
             secondDigitOption = line[i+1:]

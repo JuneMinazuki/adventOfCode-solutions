@@ -1,11 +1,11 @@
 # Day 5: Part 2
 
-try:
-    # Variables
-    ranges = []
-    mergedRanges = []
-    total = 0
+# Variables
+ranges = []
+mergedRanges = []
+total = 0
 
+try:
     with open("input.txt", "r") as file:
         content = file.read()
         sections = content.strip().split("\n\n") 

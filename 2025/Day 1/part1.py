@@ -1,10 +1,10 @@
 # Day 1: Part 1
 
-try:
-    # Variables
-    currentDial = 50
-    count = 0
+# Variables
+currentDial = 50
+count = 0
 
+try:
     with open("input.txt", "r") as file:
         for line in file:
             line = line.strip()

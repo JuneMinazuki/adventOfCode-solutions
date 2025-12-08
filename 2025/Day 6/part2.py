@@ -1,12 +1,12 @@
 # Day 6: Part 2
 
-try:
-    # Variables
-    colList = []
-    operation = []
-    number = [[]]
-    total = 0
+# Variables
+colList = []
+operation = []
+number = [[]]
+total = 0
 
+try:
     with open("input.txt", "r") as file:
         content = file.read()
         lines = content.strip().split("\n")
@@ -22,7 +22,7 @@ try:
         
         for col in colList:
             if (len(col) < maxColLength): 
-                col.extend([' '] * (maxColLength - len(colList[n])))
+                col.extend([' '] * (maxColLength - len(col)))
 
         # Convert each column in a new number
         for n in range(maxColLength):

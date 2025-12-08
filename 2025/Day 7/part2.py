@@ -1,12 +1,13 @@
 # Day 7: Part 2
 from collections import defaultdict
 
-try:
-    # Variables
-    spilter = set()
-    startingColumn = int()
-    totalRow = 0
+# Variables
+spilter = set()
+startingColumn = int()
+totalRow = 0
+count = 0
 
+try:
     with open("input.txt", "r") as file:
         # Get coordinate of each ^ and 'S'
         for row, line in enumerate(file):

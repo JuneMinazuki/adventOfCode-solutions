@@ -1,11 +1,11 @@
 # Day 2: Part 1
 import math
 
-try:
-    # Variables
-    total = 0
-    ids = list()
+# Variables
+total = 0
+ids = list()
 
+try:
     with open("input.txt", "r") as file:
         ids = file.readline().strip().split(",")
 
